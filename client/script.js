@@ -82,7 +82,7 @@ const handleSubmit = async(e) =>{
 
   // fetch data from server -> bot's response 
 
-  const response = await fetch ('https://isaaks-ai-bot.onrender.com/', {
+  const response = await fetch ('https://isaaks-ai-bot3.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
